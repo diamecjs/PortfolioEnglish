@@ -29,6 +29,34 @@
   list-style-type: none;
   z-index: 20;
 }
+.a-language{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 60px;
+  cursor: pointer; 
+}
+.button-language {
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 2%;
+  width: 60px;
+  cursor: pointer;
+}
+
+.button-language:hover {
+ transform: scale(1.09);
+}
+.button-language-esp {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 95%;
+  width: 55px;
+  cursor: pointer;
+}
+.button-language-esp:hover {
+  transform: scale(1.09);
+ }
 
 .nav-menu a{
   cursor: pointer;
@@ -101,4 +129,27 @@
     left: 0;
     margin-left: -35px;
   }
+  .a-language{
+    padding-top: 5%;;
+    padding-right: 5%;
+    width: 40px;
+    cursor: pointer; 
+  }
+  .button-language {
+     width: 50px;
+     padding-right: 25%;
+    cursor: pointer;
+  }
+  
+  .button-language:hover {
+   transform: scale(1.09);
+  }
+  .button-language-esp {
+    width: 46px;
+    padding-right: 25%;
+    cursor: pointer;
+  }
+  .button-language-esp:hover {
+    transform: scale(1.09);
+   }
 }

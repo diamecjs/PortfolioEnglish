@@ -23,6 +23,12 @@ export const NavBar = () => {
           height={150}
           onClick={scrollToTop}
         />
+          <a className={styles["a-language"]} href="https://portfolio-diame-english.vercel.app/">
+            <img className={styles["button-language"]} src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1682261229/istockphoto-1312998891-612x612-removebg-preview_x3qdze.png" />
+          </a>
+          <a className={styles["a-language"]} href="https://portfolio-diame.vercel.app/">
+            <img className={styles["button-language-esp"]} src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1682262016/5373303_mtwekq.png" />
+          </a>
         <ul className={`${styles["nav-menu"]} ${menuOpen ? styles["active"] : ""}`}>
           <li>
           <a href="/" onClick={() => setMenuOpen(false)}>
