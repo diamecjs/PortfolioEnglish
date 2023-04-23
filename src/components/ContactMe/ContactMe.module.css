@@ -1,0 +1,300 @@
+.contactme-title {
+    background: rgb(224, 203, 17);
+    position: absolute;
+    width: 100%;
+    height: 30%;
+}
+
+.content {
+    display: flex;
+    width: auto;
+    height: 47px;
+    color: #000000;
+    font-size: 48px;
+    line-height: 40px;
+    overflow: hidden;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 900;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.contactme-ul {
+    list-style: none;
+    padding-left: 8%;
+    animation: cambiar 7s infinite;
+}
+
+.contactme-li {
+    margin-bottom: 2.8px;
+    font-size: 42px;
+    color: white;
+}
+
+.contactme-p {
+    margin: 0;
+    color: rgb(56, 56, 56);
+    font-size: 50px;
+}
+
+ul li {
+    overflow: hidden;
+}
+
+@keyframes cambiar {
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: -40px;
+    }
+
+    45% {
+        margin-top: -40px;
+    }
+
+    55% {
+        margin-top: -80px;
+    }
+
+    75% {
+        margin-top: -80px;
+    }
+
+
+    85% {
+        margin-top: -40px;
+    }
+
+    95% {
+        margin-top: -40px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.contactme-icons {
+    display: flex;
+    background-color: black;
+    padding: 15%;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    
+}
+.a-contactme img{
+    margin-top: 240%;
+}
+.a-contactme {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+  }
+  
+  .a-contactme::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: 1;
+  }
+
+
+.astronauta-contactme {
+    margin-top: -2%;
+    margin-left: 15%;
+}
+
+.button-descarga {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35%;
+    margin-left: 49%;
+}
+
+.button-des {
+    min-width: 300px;
+    min-height: 80px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: rgb(224, 203, 17);
+    background: transparent;
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 3px 1px 15px rgb(56, 56, 56);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+.button-des::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 5px solid rgb(224, 203, 17);
+    box-shadow: 0 0 60px rgb(224, 203, 17);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.button-des:hover::before,
+.button-des:focus::before {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        width: auto;
+        margin-top: 20%;
+        margin-left: 8%;
+    }
+
+    .contactme-ul {
+        list-style: none;
+        padding-left: 5%;
+        animation: cambiar 7s infinite;
+    }
+
+
+    .contactme-li {
+        margin-bottom: 2.8px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .contactme-p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(56, 56, 56);
+        font-size: 20px;
+    }
+
+    .contactme-icons {
+        display: flex;
+        background-color: black;
+        padding: 15%;
+        width: auto;
+        height: 100vh;
+        object-fit: contain;
+        
+    }
+    .a-contactme img{
+        margin-top: 280%;
+        margin-left: -30%;
+    }
+    .a-contactme {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+      }
+      
+      .a-contactme::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        z-index: 1;
+      }
+    
+
+    .astronauta-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 70%;
+        margin-top: 55%;
+        margin-left: -120%;
+    }
+
+    .button-descarga {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -80%;
+        margin-left: 0%;
+    }
+
+    .button-des {
+        min-width: 80px;
+        min-height: 80px;
+        font-size: 12px;
+    }
+
+    .button-des::before {
+        content: '';
+        border-radius: 1000px;
+        min-width: calc(180px + 12px);
+        min-height: calc(60px + 12px);
+        border: 3px solid rgb(224, 203, 17);
+        box-shadow: 0 0 60px rgb(224, 203, 17);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all .3s ease-in-out 0s;
+    }
+
+
+}
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .contenedor {
+      width: auto;
+    }
+    .astronauta-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 70%;
+        margin-top: 55%;
+        margin-left: -120%;
+    }
+
+  }
+  
+ 
+  @media screen and (max-width: 479px) {
+    .contenedor {
+      width: auto;
+    }
+    .astronauta-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        
+    }
+
+  }

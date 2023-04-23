@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.Container-aboutme{
+    background-color: rgb(56, 56, 56);
+    margin-top: 0%;
+    padding: 25px; 
+}
+
+.h1-aboutme{
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 50px;
+    color:rgb(224, 203, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+    padding: 15px;
+}
+
+.dot1 {
+    animation: bounce1 0.5s ease-in-out infinite alternate;
+  }
+  
+  .dot2 {
+    animation: bounce2 0.8s ease-in-out infinite alternate;
+  }
+  
+  .dot3 {
+    animation: bounce3 0.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes bounce1 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-9px);
+    }
+  }
+  
+  @keyframes bounce2 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-12px);
+    }
+  }
+  
+  @keyframes bounce3 {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-11px);
+    }
+  }
+  
+
+.p-aboutme{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+    width: 80%;
+    margin: 0 auto; 
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .Container-aboutme{
+    background-color: rgb(56, 56, 56);
+    padding: 0px;
+    width: auto;
+    margin-top: -6%;
+}
+  
+  .Container-aboutme{
+    width: 100%;
+}
+
+.h1-aboutme{
+  padding-top: 15%;
+    font-size: 30px;
+}
+
+.p-aboutme{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

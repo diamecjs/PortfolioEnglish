@@ -1,0 +1,133 @@
+
+.container-certifications{
+    background-color: black;
+    height: 120vh;
+}
+.title-certifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: #000000
+}
+
+.h1-certifications {
+    font-family: 'Lexend Giga', sans-serif;
+    color:rgb(224, 203, 17);
+    width: 700px;
+    animation: typing 3s steps(10), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 80px;
+    margin-top: 14%;
+   margin-right: 40%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+  .img-certifications {
+    margin-left: 60%;
+    margin-top: -15%;   
+  }
+  .span-certifications {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background-color:rgb(224, 203, 17);
+    top: 80%;
+    transform: translateY(-50%);
+  }
+  
+  .cards-certifications {
+    background-color: #575454;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding-top: 5%;
+  }
+
+  .cards-certifications img{
+    width: 500px;
+    height: 350px;
+  }
+  
+  .button-div-certifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+  }
+
+  .button-certifications{
+    height: 70px;
+    width: 130px;
+    border-radius: 80px;
+    border: 5px solid rgb(224, 203, 17) ;
+    color: rgb(224, 203, 17);
+    background: transparent;
+  }
+
+  .button-certifications:hover {
+    box-shadow: 0px 0px 10px 2px rgb(224, 203, 17);
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .h1-certifications {
+        font-size: 43px;
+        width: auto;
+        margin: 10% auto 0;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .img-certifications {
+        margin-left: 6%;
+        margin-top: -5%;
+        width: 100%;
+    }
+    .span-certifications {
+      position: absolute;
+      width: 100%;
+      height: 5%;
+      top: 115%; 
+    }
+    
+    .cards-certifications {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8%;
+    }
+    .cards-certifications img{
+      width: 250px;
+      height: 200px;
+      margin: 5%;
+    }
+    
+
+    .button-div-certifications {
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .button-certifications {
+        height: 50px;
+        width: 100px;
+    }
+
+}

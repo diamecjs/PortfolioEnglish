@@ -1,0 +1,207 @@
+.principal-projects {
+  background: #575454
+}
+
+.container-projects {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: #575454
+}
+
+.h1-projects {
+  font-family: 'Lexend Giga', sans-serif;
+  color: rgb(224, 203, 17);
+  width: 350px;
+  animation: typing 3s steps(10), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 50px;
+  margin-top: -10%;
+  margin-left: 40%;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.cohete-projects {
+  width: 400px;
+  height: 370px;
+  margin-top: -38%;
+  margin-left: 10%;
+}
+
+.cards-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-front img {
+  width: 500px;
+  height: 350px;
+}
+
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: #f7f7f7;
+  z-index: 2;
+}
+
+.card-back {
+  background-color: #0000009d;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  transition: transform 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-back h1 {
+  color: white;
+  font-size: 27px;
+  display: block;
+  margin: 2%;
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.card-back p {
+  font-size: 12px;
+  color: rgb(247, 235, 134);
+  margin: 20px;
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.card-back-imgcontainer {
+  display: block;
+}
+
+.card-back-img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
+}
+
+
+.cards-1,
+.cards-2,
+.cards-3 {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  perspective: 1000px;
+  margin: 5%;
+  box-shadow: 0px 0px 20px 5px rgba(255, 255, 0, 0.8);
+  animation: glow 3s ease-in-out infinite;
+}
+
+
+.cards-1:hover .card-front,
+.cards-2:hover .card-front,
+.cards-3:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.cards-1:hover .card-back,
+.cards-2:hover .card-back,
+.cards-3:hover .card-back {
+  transform: rotateY(0);
+}
+
+
+@media (max-width: 768px) {
+
+  .h1-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend Giga', sans-serif;
+    color: rgb(224, 203, 17);
+    width: 250px;
+    font-size: 38px;
+    margin-top: -90%;
+    margin-left: -10%;
+  }
+  .cohete-projects{
+    width: auto;
+  }
+  .cohete-projects img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: auto;
+    margin-top: -90%;
+    margin-bottom: 20%; 
+
+  }
+
+  .cards-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40%;
+  }
+
+  .card-front img {
+    width: 330px;
+    height: 245px;
+  }
+
+  .cards-1,
+  .cards-2,
+  .cards-3 {
+    position: relative;
+    width: 330px;
+    height: 250px;
+    perspective: 1000px;
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 0, 0.8);
+    animation: glow 3s ease-in-out infinite;
+  }
+
+  .card-back h1 {
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin: 1%;
+    font-family: 'Lexend Giga', sans-serif;
+  }
+
+  .card-back p {
+    font-size: 10px;
+    color: rgb(247, 235, 134);
+    margin: 15px;
+    font-family: 'Lexend Giga', sans-serif;
+  }
+
+}
