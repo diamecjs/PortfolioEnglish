@@ -26,7 +26,7 @@ export const NavBar = () => {
         <ul className={`${styles["nav-menu"]} ${menuOpen ? styles["active"] : ""}`}>
           <li>
           <a href="/" onClick={() => setMenuOpen(false)}>
-              Inicio
+              Home
             </a>
           </li>
           <li>
@@ -39,7 +39,7 @@ export const NavBar = () => {
               duration={500}
               onClick={() => setMenuOpen(false)}
             >
-              Sobre Mi
+              About Me
             </Link>
           </li>
           <li>
@@ -57,7 +57,7 @@ export const NavBar = () => {
               duration={500}
               onClick={() => setMenuOpen(false)}
             >
-              Contacto
+              Contact
             </Link>
           </li>
         </ul>

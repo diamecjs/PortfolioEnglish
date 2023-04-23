@@ -5,7 +5,7 @@ const Technologies = () => {
   return (
     <div>
       <div className={styles["title-home"]}>
-      <h1 className={styles["h1-home"]}>Tecnologías</h1>
+      <h1 className={styles["h1-home"]}>Technologies</h1>
       </div>
     <div className={styles["container-technologies"]}>
          <img

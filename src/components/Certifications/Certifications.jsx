@@ -67,7 +67,7 @@ const Certifications = () => {
     <div className={styles["container-certifications"]}>
       <Navbar />
       <div className={styles["title-certifications"]}>
-        <h1 className={styles["h1-certifications"]}>Certificados</h1>
+        <h1 className={styles["h1-certifications"]}>Certifications</h1>
       </div>
       <div className={styles["img-certifications"]}>
         <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1682121126/cute-astronaut-doing-yoga-on-moon-astronaut-icon-concept-flat-cartoon-style-suitable-for-web-landing-page-banner-flyer-sticker-card-vector-removebg-preview_1_wzsxea.png" alt="astronauta" width={350} height={350} />
@@ -86,7 +86,7 @@ const Certifications = () => {
           className={styles["button-certifications"]}
             onClick={moreCert}
           >
-            Ver Más..
+            See More..
           </button>
         )}
       </div>

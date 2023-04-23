@@ -10,10 +10,10 @@ const ContactMe = () => {
             <div className={styles["contactme-title"]}>
                 <div className={styles["content"]}>
                     <p className={styles["contactme-p"]}>[</p>
-                    <p className={styles["contactme-p"]}>Contactame</p>
+                    <p className={styles["contactme-p"]}>Contact me</p>
                     <ul className={styles["contactme-ul"]}>
-                        <li className={styles["contactme-li"]}>Aqui</li>
-                        <li className={styles["contactme-li"]}>Ahora!</li>
+                        <li className={styles["contactme-li"]}>Here</li>
+                        <li className={styles["contactme-li"]}>Now!</li>
                     </ul>
                     <p className={styles["contactme-p"]}>]</p>
                 </div>
@@ -58,7 +58,7 @@ const ContactMe = () => {
             href="https://drive.google.com/file/d/1nPRjsKDq7ePcKWk6fbiAXzMMb7b4Jv94/view?usp=share_link " target="_blank"
             download="CV Diamela"
           >
-            <button className={styles["button-des"]}>Descarga Curriculum</button>
+            <button className={styles["button-des"]}>Download Resume</button>
             </a>
             </div>
         </div>
