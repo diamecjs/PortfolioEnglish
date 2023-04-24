@@ -3,7 +3,7 @@
 }
 
 .container-projects {
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,6 +139,10 @@
 
 
 @media (max-width: 768px) {
+  .container-projects {
+    margin-top: 5%; 
+  }
+  
 
   .h1-projects {
     display: flex;

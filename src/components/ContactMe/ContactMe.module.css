@@ -320,24 +320,7 @@ ul li {
     }
 
   }
-  
- 
-  @media screen and (max-width: 414px) {
-    .astronauta-contactme {
-       margin-top: 90%;
-        width: auto;
-        
-    }
-    .contactme-icons {
-        display: flex;
-        background-color: black;
-        padding-top: 70%;
-        width: auto;
-        height: 100vh;
-        object-fit: contain;
-        
-    }
-  }
+
   @media screen and (max-width: 540px) {
     .astronauta-contactme {
        margin-left: -60%;
@@ -345,7 +328,7 @@ ul li {
         width: auto;        
     }
     .button-descarga {
-        width: 100%;
+        width: auto;
         height: 100%;
         display: flex;
         align-items: center;
@@ -358,12 +341,17 @@ ul li {
     .contenedor {
       width: auto;
     }
+    .contactme-icons {
+        display: flex;
+        background-color: black;
+        padding-top: 20%;        
+    }
     .astronauta-contactme {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -120%;
-        margin-top: 70%;
+        margin-left: -150%;
+        margin-top: 60%;
         width: auto;
         
     }
