@@ -337,23 +337,40 @@ ul li {
         margin-left:8%;
     }
 }
+@media screen and (max-width: 414px) {
+    .astronauta-contactme {
+        margin-top: 100%;
+        width: 50%;
+    }
+    .astronauta-contactme img{
+        margin-right: 120%;
+       
+    }
+    .contactme-icons {
+        padding-top: 40%;        
+    }
+}
   @media screen and (max-width: 375px) {
     .contenedor {
       width: auto;
     }
     .contactme-icons {
-        display: flex;
         background-color: black;
-        padding-top: 20%;        
+        padding-top: 20%; 
+        margin-left: -10%; 
     }
+   
     .astronauta-contactme {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -150%;
-        margin-top: 60%;
-        width: auto;
+        margin-left: -50%;
+        margin-top: 80%;
+        width: 35%;
         
+    }
+    .astronauta-contactme img{
+        width: 300px;
     }
     .button-descarga {
         width:auto;
