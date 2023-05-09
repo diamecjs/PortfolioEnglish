@@ -66,7 +66,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            
                   <div className={styles["cards-3"]}>
                     <div className={styles["card-front"]}>
                         <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1683661592/233788062-1303704b-153b-4954-b9c6-de77433a177a_pxbkri.png" alt="Portamor"/>
@@ -101,6 +101,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
     );
