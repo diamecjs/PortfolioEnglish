@@ -8,6 +8,7 @@
   padding: 0 24px;
   background-color: rgb(56, 56, 56);
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -23,49 +24,22 @@
   gap: 60px;
   cursor: pointer;
   margin-right: 5%;
-  color:rgb(224, 203, 17);
+  color: rgb(224, 203, 17);
   font-weight: 500;
   font-size: 18px;
   list-style-type: none;
   z-index: 20;
 }
-.a-language{
-  position: absolute;
-  margin-top: 1%;
-  margin-left: 1%;
-  width: 60px;
-  cursor: pointer; 
-}
-.button-language {
-  position: absolute;
-  margin-top: 6%;
-  margin-left: 2%;
-  width: 60px;
-  cursor: pointer;
-}
 
-.button-language:hover {
- transform: scale(1.09);
-}
-.button-language-esp {
-  position: absolute;
-  margin-top: 10%;
-  margin-left: 95%;
-  width: 55px;
+.nav-menu a {
   cursor: pointer;
-}
-.button-language-esp:hover {
-  transform: scale(1.09);
- }
-
-.nav-menu a{
-  cursor: pointer;
-  color:rgb(224, 203, 17);
+  color: rgb(224, 203, 17);
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
   z-index: 20;
 }
+
 .nav-menu li .active::after,
 .nav-menu li:hover::after {
   content: "";
@@ -79,11 +53,40 @@
 .nav-branding {
   font-size: 2rem;
 }
+.a-language{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 60px;
+  cursor: pointer; 
+}
+.button-language {
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 2%;
+  width: 40px;
+  cursor: pointer;
+}
+
+.button-language:hover {
+ transform: scale(1.09);
+}
+.button-language-esp {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 95%;
+  width: 35px;
+  cursor: pointer;
+}
+.button-language-esp:hover {
+  transform: scale(1.09);
+ }
 
 .hamburguer {
   display: none;
   cursor: pointer;
 }
+
 .bar {
   display: block;
   width: 25px;
@@ -91,8 +94,9 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color:rgb(224, 203, 17);
+  background-color: rgb(224, 203, 17);
 }
+
 @media (max-width: 768px) {
   .sticky {
     position: fixed;
@@ -101,21 +105,26 @@
     width: 100%;
     z-index: 1;
   }
+
   .hamburguer {
     display: block;
   }
+
   .hamburguer.active .bar:nth-child(2) {
     opacity: 0;
   }
+
   .hamburguer.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburguer.active .bar:nth-child(1) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
   .nav-menu {
-    flex-direction: column; 
-    gap: 16px; 
+    flex-direction: column;
+    gap: 16px;
     position: absolute;
     left: -115%;
     top: 130px;
@@ -123,8 +132,8 @@
     width: 100%;
     transition: 0.3s;
   }
-  
- 
+
+
   .nav-menu.active {
     left: 0;
     margin-left: -35px;
@@ -152,4 +161,5 @@
   .button-language-esp:hover {
     transform: scale(1.09);
    }
+
 }
