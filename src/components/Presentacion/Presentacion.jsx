@@ -14,7 +14,7 @@ const Presentacion = () => {
             <div className={styles["texto-presentacion"]}>
                 <h2 className={styles["h2-presentacion"]}>Hi! I am </h2>
                 <h1 className={styles["h1-presentacion"]}>Diamela Lares...</h1>
-                <h3 className={styles["h3-presentacion"]}>AND I AM A FULL STACK DEVELOPER!</h3>
+                <h3 className={styles["h3-presentacion"]}>I AM A FULL STACK DEVELOPER!</h3>
             </div>
 
         </div>
