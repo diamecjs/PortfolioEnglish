@@ -67,8 +67,42 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+                  <div className={styles["cards-3"]}>
+                    <div className={styles["card-front"]}>
+                        <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1683661592/233788062-1303704b-153b-4954-b9c6-de77433a177a_pxbkri.png" alt="Portamor"/>
+                    </div>
+                    <div className={styles["card-back"]}>
+                        <h1>Project Portamor</h1>
+                        <p>This is a project carried out for the NGO Portamor-Pe for older adults. The idea of ​​this project was to bring older adults closer to a platform to access online courses from the comfort of their homes.</p>
+                        <div className={styles["card-back-imgcontainer"]}>
+                            <a href="https://github.com/portamor/curso" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/889/889192.png?w=740&t=st=1682110284~exp=1682110884~hmac=0e9ccae0138bb6c2746e38460025f76c092e94e35800da925da88cdff386d9b4" alt="" width={65} height={65} className={styles["card-back-img"]} />
+                            </a>
+                            <a href="" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1201/1201519.png?w=740&t=st=1682110410~exp=1682111010~hmac=cbe0fa9c9ba50c02d24dcaa2f4084aeadb2a6414005ef3c0452d5314a8012dd4" alt="" width={50} height={50} className={styles["card-back-img"]} />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles["cards-3"]}>
+                    <div className={styles["card-front"]}>
+                        <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1683661960/mar_y_arte_web_md1osn.png" alt="Mar y Arte"/>
+                    </div>
+                    <div className={styles["card-back"]}>
+                        <h1>Mar y Arte</h1>
+                        <p>Mar y Arte is a personal project for one's own business, the website is fully responsive, it has an administrator login that gives access to add, edit and delete products. In addition, as a customer you can also use a shopping cart for more comfort.</p>
+                        <div className={styles["card-back-imgcontainer"]}>
+                            <a href="https://github.com/diamecjs/maryarte" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/889/889192.png?w=740&t=st=1682110284~exp=1682110884~hmac=0e9ccae0138bb6c2746e38460025f76c092e94e35800da925da88cdff386d9b4" alt="" width={65} height={65} className={styles["card-back-img"]} />
+                            </a>
+                            <a href="https://maryarte.vercel.app/" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1201/1201519.png?w=740&t=st=1682110410~exp=1682111010~hmac=cbe0fa9c9ba50c02d24dcaa2f4084aeadb2a6414005ef3c0452d5314a8012dd4" alt="" width={50} height={50} className={styles["card-back-img"]} />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        </div>
     );
 };
 
