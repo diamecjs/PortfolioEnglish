@@ -2,13 +2,14 @@
 
 .Container-aboutme{
     background-color: rgb(56, 56, 56);
-    margin-top: 0%;
-    padding: 25px; 
+    padding: 2vw;
+    width: auto;
+    margin-top: -2%;
 }
 
 .h1-aboutme{
     font-family: 'Lexend Giga', sans-serif;
-    font-size: 50px;
+    font-size: 5vw;
     color:rgb(224, 203, 17);
     display: flex;
     justify-content: center;
@@ -60,7 +61,7 @@
 .p-aboutme{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2vw;
     color: rgb(209, 209, 209);
     width: 80%;
     margin: 0 auto; 

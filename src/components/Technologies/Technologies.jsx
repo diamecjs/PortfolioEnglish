@@ -3,7 +3,7 @@ import styles from "./Technologies.module.css"
 
 const Technologies = () => {
   return (
-    <div>
+    <div className={styles["technologies"]}>
       <div className={styles["title-home"]}>
       <h1 className={styles["h1-home"]}>Technologies</h1>
       </div>
