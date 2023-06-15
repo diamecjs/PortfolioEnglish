@@ -11,6 +11,10 @@ const Certifications = () => {
       image:
         "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677896631/certificados/henry_ufvx4s.jpg",
     },
+     {
+      image:
+        "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1684775416/TI-CERPA2023-001_page-0001_akxwei.jpg",
+    },
     {
       image:
         "https://res.cloudinary.com/dsjsbp6qy/image/upload/v1677896406/certificados/diploma-npm_page-0001_kfiaev.jpg",
