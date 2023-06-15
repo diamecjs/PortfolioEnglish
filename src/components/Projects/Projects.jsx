@@ -101,6 +101,24 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                
+                <div className={styles["cards-3"]}>
+                    <div className={styles["card-front"]}>
+                        <img src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1686847608/Dise%C3%B1o_sin_t%C3%ADtulo_dzjxxo.png" alt="Memoriate"/>
+                    </div>
+                    <div className={styles["card-back"]}>
+                        <h1>Memoriate</h1>
+                        <p>Memoriate is a memory game 🧠🤔 created with React Native and CSS, simple and fun 🤩</p>
+                        <div className={styles["card-back-imgcontainer"]}>
+                            <a href="https://github.com/diamecjs/AwesomeProject" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/889/889192.png?w=740&t=st=1682110284~exp=1682110884~hmac=0e9ccae0138bb6c2746e38460025f76c092e94e35800da925da88cdff386d9b4" alt="" width={65} height={65} className={styles["card-back-img"]} />
+                            </a>
+                            <a href="https://drive.google.com/file/d/18_ILlxchhUU9Ue-MfHn45U5OwVcoebpm/view?usp=sharing" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1201/1201519.png?w=740&t=st=1682110410~exp=1682111010~hmac=cbe0fa9c9ba50c02d24dcaa2f4084aeadb2a6414005ef3c0452d5314a8012dd4" alt="" width={50} height={50} className={styles["card-back-img"]} />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
 
